@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'; object-src 'self';">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Scraper Extension</title>
+    <style>
+        body {
+            width: 300px;
+            font-family: Arial, sans-serif;
+            margin: 15px;
+        }
+        #results {
+            width: 100%;
+            height: 150px;
+            margin-top: 10px;
+        }
+        button {
+            padding: 5px 15px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+<h2>My Scraper Extension</h2>
+<button id="startScraping">Start Scraping</button>
+<h3>Results:</h3>
+<label for="results">Scraping Results:</label>
+<textarea id="results" readonly></textarea>
+<script src="popup.js"></script>
+</body>
+</html>
